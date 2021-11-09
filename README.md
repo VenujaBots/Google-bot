@@ -43,11 +43,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Support 🇮🇳
+## Support
 <a href="https://t.me/Venuja_Sadew">
    <p> Telegram </p>
   </a>
-<a href="https://youtube.com/c/VNDGROUP">
+<a href="https://www.youtube.com/channel/UCL8PI42TZ_uaQWVVKUJx9Eg">
    <p> YouTube </p>
   </a>
 
+## Credits and Owner
+
+* https://t.me/Venuja_Sadew
