@@ -53,4 +53,4 @@ SOFTWARE.
 
 ## Credits and Owner
 
-* [Venuja_Sadew](https://t.me/Venuja_Sadew)
+* [Venuja Sadew](https://t.me/Venuja_Sadew)
