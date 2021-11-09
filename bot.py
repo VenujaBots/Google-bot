@@ -20,7 +20,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am Vnd Google Translater Bot By @Venuja_Sadew \n I can translate any language to you selected language \n Send Your translate To me like normal Massage \n Then you can Translate__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support™" ,url="https://t.me/vndtranslatebotsupport") ],               [InlineKeyboardButton("Subscribe 🧐", url="https://www.youtube.com/channel/UCL8PI42TZ_uaQWVVKUJx9Eg") ]   ]  ) )
+	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am Vnd Google Translater Bot By @Venuja_Sadew \n I can translate any language to you selected language \n Send Your translate To me like normal Massage \n Then you can Translate__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support™" ,url="https://t.me/vndtranslatebotsupport") ],               [InlineKeyboardButton("➕ Add Vnd Translator To Your Group ➕", url="http://t.me/VndTranslateBot?startgroup=true") ]   ]  ) )
                   
 
 
