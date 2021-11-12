@@ -7,7 +7,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup
 )
 from googletrans import Translator
-TOKEN = os.environ.get("TOKEN", "2111962326:AAERb1Xma1GlV4yKEb3iRNwmFxhKO2MqbiI")
+TOKEN = os.environ.get("TOKEN", "2121977275:AAHGkOfO62Py7g6Salx8v4BrBR8Ay2WXhyE")
 
 API_ID = int(os.environ.get("API_ID", 7395896))
 
@@ -20,7 +20,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am Vnd Google Translater Bot By @Venuja_Sadew \n I can translate any language to you selected language \n Send Your translate To me like normal Massage \n Then you can Translate__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support™" ,url="https://t.me/vndtranslatebotsupport") ],               [InlineKeyboardButton("➕ Add Vnd Translator To Your Group ➕", url="http://t.me/VndTranslateBot?startgroup=true") ]   ]  ) )
+	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __**I am Vnd Google Translater Bot By @Venuja_Sadew.** \n **I can translate any language to you selected language**__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support™" ,url="https://t.me/vndtranslatebotsupport") ],               [InlineKeyboardButton("➕ Add Vnd Translator To Your Group ➕", url="http://t.me/VndTranslateBot?startgroup=true") ]   ]  ) )
                   
 
 
